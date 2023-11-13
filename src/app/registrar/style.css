@@ -1,0 +1,38 @@
+.contenedor{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: bisque;
+  }
+
+.placeholders{
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+    margin: 0 15px;
+}
+
+input{
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+    background-color: wheat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
